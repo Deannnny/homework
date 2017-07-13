@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="js/homejs.js"></script>
+<link rel="stylesheet" href="css/homecss.css"  >
+<style type="text/css">
+#mainlink{
+	position: absolute;
+	top:69px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+	background-size:100% 93%;
+	background-image:url(img/index_dim.jpg);
+	background-repeat:no-repeat;
+	
+}
+#cover{
+   position: absolute;
+	top:0px;
+    height: 93%;
+    width: 100%;
+	background-color:#000;
+	opacity:0.5;
+	z-index:1;
+}
+#ul{
+	margin: 25px auto 0;
+    width: 1240px;
+    transform-origin: 0 50%;
+	margin-top:100px;
+	z-index:1;
+	
+}
+#li1{
+	background:url(img/images/groupq_01.png) no-repeat;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+	z-index:1;
+}
+#lk1{
+		border: 1px solid #FFF;
+		width:217px;
+		height:217px;
+		border-radius:111px 111px 111px 111px;
+		z-index:1;
+}
+#li2{
+	background:url(img/images/groupq_02.png) no-repeat;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+	z-index:1;
+}
+#lk2{
+		border: 1px solid #FFF;
+		z-index:1;
+		width:217px;
+		height:217px;
+		border-radius:111px 111px 111px 111px;
+}
+#li3{
+	background:url(img/images/groupq_03.png) no-repeat;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+	z-index:1;
+}
+#lk3{
+		border: 1px solid #FFF;
+		z-index:1;
+		width:217px;
+		height:217px;
+		border-radius:111px 111px 111px 111px;
+}
+#li4{
+	background:url(img/images/groupq_04.png) no-repeat;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+	z-index:1;
+}
+#lk4{
+		border: 1px solid #FFF;
+		z-index:1;
+		width:217px;
+		height:217px;
+		border-radius:111px 111px 111px 111px;
+}
+#li5{
+	background:url(img/images/groupq_05.png) no-repeat;
+	float:left;
+	margin-right:10px;
+	margin-left:10px;
+	z-index:1;
+}
+#lk5{
+		border: 1px solid #FFF;
+		z-index:1;
+		width:217px;
+		height:217px;
+		border-radius:111px 111px 111px 111px;
+}
+#point{
+	position:relative;
+	top:50%;
+}
+#yellow{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #F9991C;
+    height: 7px;
+    width: 216px;
+	    -webkit-transition: height .15s cubic-bezier(0,.615,.435,1.005);
+    -moz-transition: height .15s linear;
+    -ms-transition: height .2s linear;
+    -o-transition: height .2s linear;
+    transition: height .15s cubic-bezier(0,.615,.435,1.005);
+	z-index:-1;
+}
+#point{
+	position:relative;
+	top:0px;
+	
+}
+#down{
+	        position: absolute;
+    height: 100px;
+    top: 89%;
+    left: 50%;
+    margin-left: -108px;
+    width: 216px;
+    text-align: center;
+    cursor: pointer;
+
+}
+#dp{
+	position:absolute;
+	height:100px;
+	top:100%;
+	width:100%;
+
+	}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>home</title>
+</head>
+
+<body onLoad="move()">
+<div id="title">
+<a href="" style="display: block;margin-top: 14px;margin-left: 19px;height: 31px;">
+<img src="img/logo1.png" style="height: 31px; width: auto;">
+</a>
+</div>
+
+
+<div id="mainlink">
+<div id="cover">
+<div id="main">
+
+<div id="logo">
+<img src="img/images/logoq_01.png" id="mainlogo">
+</div>
+<ul style="list-style:none; " id="ul">
+<li  id="li1">
+<a href="" onMouseOver="changeimg1();changewhite1();" onMouseOut="changeback();changewhiteback1();">
+<div id="lk1">
+<div id="lk1cover"></div>
+<img src="img/images/index_hover_words_08.png" id="lk1img">
+</div>
+
+</a>
+</li>
+<li id="li2" >
+<a href="" onMouseOver="changeimg2();changewhite2();" onMouseOut="changeback();changewhiteback2();">
+<div id="lk2"><div id="lk2cover"></div>
+<img src="img/images/index_hover_words_07.png" id="lk2img"></div>
+</a>
+</li>
+<li id="li3">
+<a href="" onMouseOver="changeimg3();changewhite3();" onMouseOut="changeback();changewhiteback3();">
+<div id="lk3"><div id="lk3cover"></div>
+<img src="img/images/index_hover_words_05.png" id="lk3img"></div>
+</a>
+</li>
+<li id="li4">
+<a href="" onMouseOver="changeimg4();changewhite4();" onMouseOut="changeback();changewhiteback4();">
+<div id="lk4"><div id="lk4cover"></div>
+<img src="img/images/index_hover_words_03.png" id="lk4img"></div>
+</a>
+</li>
+<li id="li5">
+<a href="" onMouseOver="changeimg5();changewhite5();" onMouseOut="changeback();changewhiteback5();">
+<div id="lk5"><div id="lk5cover"></div>
+<img src="img/images/index_hover_words_02.png" id="lk5img"></div>
+</a>
+</li>
+</ul>
+<div id="down">
+<img src="img/下载.png" id="point" >
+<div id="bottom_logo" onMouseOver="yellow()" onMouseOut="yellowback()" onClick="onClick()"></div>
+<div id="yellow" ></div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div id="dp">
+
+<div id="content">
+<div id="down_logo">
+<img src="img/drop_logo.png">
+</div>
+<p id="down_words">
+我们是最具亲和力的校园互联网团队。轻松活跃的团队氛围是团队成员收获成长的源动力，是团队
+            不断进步、走向成熟的保证。追求卓越是每个人冰岩人所标榜的工作理念。用最新的Web知识充实自己，
+            用最严格的要求审视自己的每一个创意、每一件设计、每一行代码。</p>
+      
+<div id="info">      
+           
+<div id="left">   
+<div id="map">
+<img src="img/location.jpg">
+</div>
+<div id="touch">
+<p style="font-size:18px;line-height:10px; font-family:Verdana, Geneva, sans-serif">冰岩作坊团队主管：常明明</p>
+<p style="font-size:18px;line-height:10px;font-family:Verdana, Geneva, sans-serif">工作邮箱：cmm@bingyan.net</p>
+<p style="font-size:18px;line-height:10px;font-family:Verdana, Geneva, sans-serif">办公电话：(027) 87793534</p>
+<p style="font-size:18px;line-height:10px;font-family:Verdana, Geneva, sans-serif">传真：(027) 87542401（停用）</p>
+<p style=" line-height:20px;font-size:18px;font-family:Verdana, Geneva, sans-serif ">地址：中国 武汉 华中科技大学（东校区）启明学院亮胜楼1006</p>
+</div>
+</div>
+
+<div id="form_right">
+<form action="" method="post" >
+<div class="input_wrap">
+<label for="name">姓名<span class="orange">*</span></label>
+<input type="text" name = "name" id="name"/>
+</div>
+<div class="input_wrap">
+<label for="mail">邮箱<span class="orange">*</span></label>
+<input type="email" name = "mail" id="mail"/>
+</div>
+<div class="input_wrap">
+<label for="tel">电话</label>
+<input type="text" name="tel" id="tel"/>
+</div>
+<div class="input_wrap">
+<label for="text">信息</label>
+<textarea name="text" id="text"></textarea>
+</div>
+<input type="submit" class="info_sub" value="发送消息"/>
+</form>
+ </form>    
+</div>
+</div>
+</div>
+
+
+<div id="otherlink">
+<footer id="index_ft" class="g_mod">
+<div class="ft_wrap">
+<p class="bh">友情链接</p>
+<p class="bd">
+<a href=""><font size="4" color="#FFFFFF">华中科技大学</font></a>
+<a href=""><font size="4" color="#FFFFFF">大软坊</font></a>
+<a href=""><font size="4" color="#FFFFFF">华中大在线</font></a>
+<a href=""><font size="4" color="#FFFFFF">二手市场</font></a>
+<a href=""><font size="4" color="#FFFFFF">iKnow</font></a>
+<a href=""><font size="4" color="#FFFFFF">爱选修</font></a>
+<a href=""><font size="4" color="#FFFFFF">华中大相册</font></a>
+<a href=""><font size="4" color="#FFFFFF">华中大校园通</font></a>
+<a href=""><font size="4" color="#FFFFFF">蝴蝶-HUDBT</font></a>
+<a href=""><font size="4" color="#FFFFFF">回音</font></a>
+               
+</p>
+</div>
+<div id="ft">
+2014(C) Powered by <img src="img/by.png"> Bingyan Studio  All Rights Reserved.
+</div>
+</footer>
+</div>
+
+</div>
+</body>
+</html>

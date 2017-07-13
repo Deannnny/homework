@@ -1,0 +1,250 @@
+#title{
+	position:absolute;
+	width:100%;
+	height:64px;
+	background-color:#000;
+	overflow: hidden;
+}
+#cover{
+   position: absolute;
+	top:0px;
+    height: 93%;
+    width: 100%;
+	background-color:#000;
+	opacity:0.5;
+	z-index:1;
+}
+
+
+#otherlink{
+	min-height:220px;
+	width: 100%;
+	background-color:#282828;
+    color:#FFF;
+    letter-spacing: 1px;
+    text-align: left;
+    overflow: hidden;
+	
+}
+#logo{
+
+	margin: 0 auto;
+    width: 377px;
+    height: 103px;
+}
+#main{
+	margin: 68px auto 0;
+}
+
+
+#point{
+	position:relative;
+	top:0px;
+}
+#bottom_logo{
+	background:url(../img/images/logo_02.png);
+	    position: absolute;
+    left: 50%;
+    top: 40px;
+    margin-left: -78px;
+    width: 156px;
+    height: 39px;
+}
+#yellow{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #F9991C;
+    height: 7px;
+    width: 100%;
+	    -webkit-transition: height .15s cubic-bezier(0,.615,.435,1.005);
+    -moz-transition: height .15s linear;
+    -ms-transition: height .2s linear;
+    -o-transition: height .2s linear;
+    transition: height .15s cubic-bezier(0,.615,.435,1.005);
+}
+#down_logo{
+
+	margin: 0 auto;
+	margin-top:40px;
+    width: 377px;
+    height: 103px;
+}
+#down_words{
+	display: block;
+    margin: 50px auto 0;
+    max-width: 915px;
+    font-size: 18px;
+    color: #979797;
+    text-indent: 2em;
+    text-align: left;
+	line-height: 30px;
+}
+#map{
+	
+    width: 400px;
+
+}
+#touch{
+    width: 400px;
+
+}
+#left{
+	width:400px;
+	float:left;
+}
+#info{
+	height:500px;
+	    margin: 55px auto 38px;
+    width: 885px;
+    font-size: 18px;
+    color: #565656;
+    letter-spacing: 2px;
+    text-align: left;
+}
+div.input_wrap {
+    margin-top: .625em;
+}
+div.input_wrap label {
+    display: block;
+    height: 1.5em;
+    line-height: 1.5em;
+	font-family:Verdana, Geneva, sans-serif
+}
+div.input_wrap input, div.input_wrap textarea {
+    border: 1px solid #bfbfbf;
+    width: 372px;
+    padding: 2px;
+}
+div.input_wrap input {
+    height: 30px;
+}
+div.input_wrap label span {
+    color: #fa9a1c;
+    vertical-align: -4px;
+}
+div.input_wrap textarea {
+    resize: none;
+    height: 166px;
+}
+div.input_wrap input, div.input_wrap textarea {
+    border: 1px solid #bfbfbf;
+    width: 372px;
+    padding: 2px;
+}
+input.info_sub {
+    display: block;
+    margin: 15px auto 0;
+    width: 176px;
+    height: 52px;
+    line-height: 52px;
+    color: #fff;
+    font: 500 18px Microsoft Yahei,Hiragino Sans GB,WenQuanYi Micro Hei,sans-serif;
+    background-color: #F9991B;
+    border: 0;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+#form_right{
+	float:right;
+	margin-top: -2em;
+}
+#index_ft .bd a {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 18px;
+    width: 7em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    text-align: left;
+    text-decoration: none;
+}
+#index_ft .ft_wrap {
+    margin: 30px auto;
+    width: 1024px;
+}
+#index_ft .bh {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+#ft {
+	text-align:center;
+}
+#lk1img{
+	position:relative;
+	top:-140px;
+	
+}
+#lk1cover{
+		border: 1px solid #FFF;
+		width:217px;
+		height:217px;
+		border-radius:111px 111px 111px 111px;
+		background:#000;
+		opacity:0.3;
+		z-index:1;	
+}
+#lk2img{
+	position:relative;
+	top:-140px;
+	font-size:22px;
+	
+}
+#lk2cover{
+		border: 1px solid #FFF;
+		width:217px;
+		height:217px;
+		border-radius:111px 111px 111px 111px;
+		background:#000;
+		opacity:0.3;
+		z-index:1;	
+		
+}
+#lk3img{
+	position:relative;
+	top:-140px;
+	left:60px;
+	
+}
+#lk3cover{
+		border: 1px solid #FFF;
+		width:217px;
+		height:217px;
+		border-radius:111px 111px 111px 111px;
+		background:#000;
+		opacity:0.3;
+		z-index:1;	
+}
+#lk4img{
+	position:relative;
+	top:-140px;
+	left:60px;
+	
+}
+#lk4cover{
+		border: 1px solid #FFF;
+		width:217px;
+		height:217px;
+		border-radius:111px 111px 111px 111px;
+		background:#000;
+		opacity:0.3;
+		z-index:1;	
+}
+#lk5img{
+	position:relative;
+	top:-140px;
+	left:60px;
+	
+}
+#lk5cover{
+		border: 1px solid #FFF;
+		width:217px;
+		height:217px;
+		border-radius:111px 111px 111px 111px;
+		background:#000;
+		opacity:0.3;
+		z-index:1;	
+}
